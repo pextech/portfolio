@@ -42,9 +42,11 @@ height:750px;
 .nav-wrapper > .container > .center > ul {
     position: fixed;
    
-    width: 80%;
- 
-    margin-left: -30%;
+    width: 90%;
+ text-align: right;
+   
+   
+    
 }
 .nav-wrapper > .container > .center > ul > li {
     text-decoration: none;
@@ -61,7 +63,7 @@ height:750px;
     margin-top:0;
     height: 30px;
     background-color: #171717;
-    margin:3px;
+ 
 
 }
 
@@ -69,14 +71,20 @@ height:750px;
 position:fixed;
 top:30%;
 
-margin-left: -100%;
+margin-left: 30%;
     text-align: center;
-    
+    height:300px;
     color: #eeee;
-    position: sticky;
-  
+    position: relative;
+   
     
 }
+.center{
+    
+    margin-right: 20px;
+width: 100%;
+}
+
 .nav-wrapper > .container > .center > .nav-wrapper-content > .getStarted{
 
 
@@ -253,7 +261,7 @@ padding-top: 20px;
 background-color: #333;
     position: relative;
     width: 50%;
-    height:250px;
+    height:fit-content;
     margin:10px;
     min-height: 1px;
     padding-right: 15px;
@@ -265,7 +273,7 @@ background-color: #333;
 }
 .container-1 > .box p{ 
     color: rgb(192, 192, 192);
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 14px;
     
 }
@@ -287,7 +295,7 @@ background-color: #333;
    background-color: #333;
   position: relative;
   width: 50%;
-  height:250px;
+  height:fit-content;
   margin:10px;
   min-height: 1px;
   padding-right: 15px;
@@ -299,7 +307,7 @@ background-color: #333;
 }
 .container-2 > .box p{ 
     color: rgb(192, 192, 192);
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 14px;
     
 }
@@ -345,13 +353,13 @@ color:#fefefe;
 .container-1 > .serviceBox> .serviceLogo > img{
     width: 120px;
     height: 100px;
-margin-left: 35%;
+margin-left: 30%;
 margin-top:10%;
 }
 .container-1 > .serviceBox{
    background-color: #333;
     margin:5px;
-    height:500px;
+    height:fit-content;
 
 }
 .container-1 > .serviceBox > h4{
@@ -362,10 +370,11 @@ margin-top:10%;
 
 .container-1 > .serviceBox > .serviceDetails{
     margin-top:10%;
-    text-align:center;
+    
     color:rgb(192, 192, 192);
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 
 } 
 
@@ -374,6 +383,20 @@ margin-top:10%;
     
 }
 
+.container-1 > .contactForm > .form > .emailIcon{
+    background: url("../assets/email.png") no-repeat right 10px center ;
+    background-size: 20px;
+    
+    background-color: #666;
+    border: 1px solid #666;
+}
+.container-1 > .contactForm > .form > .phoneIcon{
+    background: url("../assets/phone.png") no-repeat right 10px center ;
+    background-size: 20px;
+    
+    background-color: #666;
+    border: 1px solid #666;
+}
 .container-1 > .contactForm > .form > .form-group{
     margin:5px ;
     width:80%;
@@ -421,6 +444,13 @@ color:#cccc;
     color:#C0D05F;
 
 }
+.container-1 >  .contactDetails > .title >img{
+
+   height:20px;
+   float: left; 
+   margin-right:20px;
+   
+}
 
 footer{
     margin-top:20%;
@@ -430,7 +460,7 @@ footer{
 
 
 
-@media only screen and (max-width:800px)  {
+@media only screen and (max-width:875px)  {
 
     
   
@@ -440,16 +470,6 @@ footer{
     }
     .brand{display:none;}
    
-    
-    .nav-wrapper > .container > .center > .nav-wrapper-content > h2 {
-        
-        font-size: 10px;
-       text-align: center;
-    }
-    small{
-        text-align: center;
-        font-size:10px;
-    }
     .portfolio-item-wrapper > .img-wrapper > img{
         height:200px;
         width:80%;
@@ -506,7 +526,7 @@ footer{
     .container-1 > .serviceBox{
         border:3px solid #ccc;
         margin:5px;
-        height:400px;
+        height:fit-content;
         width:85%;
     }
     
@@ -520,11 +540,7 @@ footer{
     }
       a.mobile{
     display:block;}
-}
 
-
-
-@media only screen and (max-width: 1200px)  {
       
     .container{
         width:100%;
@@ -532,31 +548,19 @@ footer{
             }
             .nav-wrapper > .container > .center > .nav-wrapper-content{
                 position:fixed;
-top:20%;
+top:10%;
 
 margin-left: 40%;
     text-align: center;
-    width:60%;
+    width:100%;
     margin-bottom: 20%;
+    height:200px;
     color: #eeee;
     position: absolute;
             
             }
             .brand{display:none;}
-            .nav-wrapper > .container > .center > ul {
-             
-                margin-left:40%;
-                width: 60%;
-
-             
-            }
-            .nav-wrapper > .container > .center > ul >li{
-              display: inline;
-                margin-left:10%;
-                padding:0px;
-                font-size:15px;
-            
-            }
+          
             
             .nav-wrapper > .container > .center > ul > .go {
             display: none;
@@ -570,15 +574,29 @@ margin-left: 40%;
                 position: absolute;
 
             }
-
-            .nav-wrapper > .container > .center > .nav-wrapper-content > h2 {
+            .nav-wrapper > .container > .center >.nav-wrapper-content  {
                 
-                font-size: 10px;
+              
+               width:250px;
+               
+
+               
+        
+            }
+
+            .nav-wrapper > .container > .center >.nav-wrapper-content > .nav-wrapper-content-text > p {
+                
+                font-size: 18px;
+               text-align: center;
+            }
+     strong {
+                
+                font-size: 1.5em;
                text-align: center;
             }
             small{
                 text-align: center;
-                font-size:10px;
+                font-size:15px;
             }
            
             .portfolio-text-base{
@@ -597,9 +615,7 @@ margin-left: 40%;
                padding-top:20px;
                padding-right: 40px;;
             }
-            .container-1 > .contactForm {
-                width:110%;
-            }
+           
         a.mobile{
             display:block;
         }
@@ -609,6 +625,49 @@ margin-left: 40%;
         *{
             font-size: 12px;
         }
+
+        .bgMe{
+            height:300px;
+            width: 100%;
+        }
         
+        body{
+            
+            overflow-x: hidden;
+        
+        }
+        .container-1 > .serviceBox> .serviceLogo > img{
            
+        margin-left: 35%;
+        
+        }
+        .center{
+            width: 100%;
+            height:300px;
+        }
+        .container-1 >  .contactDetails{
+            margin-right: 20%;
+            margin-top: 20px;
+            width: 100%;
+        color:#cccc;
+        }
+        .container-1 > .myProfile > img{
+            border-radius: 10px;
+            width:250px;
+            height:300px;
+            }
+
+            .nav-wrapper > .container > .center > .nav-wrapper-content > .getStarted{
+
+
+                background-color: #555;
+               
+                width: 70px;
+                height: 25px;
+                
+                color:#C0D05F;
+                border: 1px solid #555;
+            
+                
+            }
 }
