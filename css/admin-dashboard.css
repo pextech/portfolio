@@ -9,6 +9,9 @@ body{
     font-family: sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
 }
+a.mobile {
+        display: none;
+    }
 
 a{
     text-decoration:none;
@@ -815,14 +818,3 @@ margin-top: 10px;
 
 }
 
-@media only screen and (min-width: 857px){
-
-    a.mobile {
-        display: none;
-    }
- .sidebar{
-       height: 100%;
-       display:block;
-   }
- 
-}
