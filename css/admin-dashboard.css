@@ -729,6 +729,7 @@ margin-bottom: 5px;
    .sidebar{
       width: 100%;
       display: none;
+       position:absolute;
    }
    .content{
        margin-left: 0px;
@@ -770,17 +771,17 @@ margin-bottom: 5px;
 
     #addUser{
         
-        width:300px;
+        width:500px;
         top:0%;
-        left:15%;
+        left:25%;
         
         
     }
     #addPage{
         
-        width:300px;
+        width:500px;
         top:0%;
-        left:20%;
+        left:25%;
         
         
     }
