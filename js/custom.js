@@ -4,13 +4,7 @@ $(document).ready(function(){
         $(".sidebar").slideToggle('slow');
     });
 
-    window.onresize = function(event){
-        if ($(window).width() > 857 ){
-            $(".sidebar").show();
-        }
-    }
     
-});
 $(document).ready(function(){
 
     $('#createPost').click(function(){
